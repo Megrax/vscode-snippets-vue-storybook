@@ -2,7 +2,7 @@
   "vue2-storybook": {
     "prefix": "vs2",
     "body": [
-      "import ${1:YourComponent}  from './${2:YourComponent}.vue';",
+      "import ${1:YourComponent}  from '@/components/${2:YourComponent}';",
       "",
       "export default {",
       "  title: '${1:YourComponent}',",
@@ -25,7 +25,7 @@
   "vue3-storybook": {
     "prefix": "vs3",
     "body": [
-      "import ${1:YourComponent}  from './${2:YourComponent}.vue';",
+      "import ${1:YourComponent}  from '@/components/${2:YourComponent}';",
       "",
       "export default {",
       "  title: '${1:YourComponent}',",
