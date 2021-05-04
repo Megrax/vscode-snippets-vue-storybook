@@ -3,11 +3,21 @@
     "displayName": "Vue Storybook Snippets",
     "description": "Storybook Snippets for Vue",
     "version": "0.0.1",
+    "publisher": "Megrax",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Megrax/vue-storybook-snippets"
+    },
+    "homepage": "https://github.com/Megrax/vue-storybook-snippets#readme",
     "engines": {
-        "vscode": "^1.55.0"
+        "vscode": "^1.25.0"
     },
     "categories": [
         "Snippets"
+    ],
+    "keywords": [
+        "Storybook",
+        "Vue"   
     ],
     "contributes": {
         "snippets": [

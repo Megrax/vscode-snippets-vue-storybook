@@ -1,1 +1,50 @@
-{}
+{
+  "vue2-storybook": {
+    "prefix": "vs2",
+    "body": [
+      "import ${1:YourComponent}  from './${2:YourComponent}.vue';",
+      "",
+      "export default {",
+      "  title: '${1:YourComponent}',",
+      "  component: ${1:YourComponent},",
+      "};",
+      "",
+      "const Template = (args) => ({",
+      "  components: { ${1:YourComponent} },",
+      "  props: { args },",
+      "  template: '< ${1:YourComponent} v-bind=\"$$props\"/>',",
+      "});",
+      "",
+      "export const ${3:FirstStory} = Template.bind({});",
+      "",
+      "${3:FirstStory}.args = {",
+      "${4: /* args */}",
+      "};"
+    ]
+  },
+  "vue3-storybook": {
+    "prefix": "vs3",
+    "body": [
+      "import ${1:YourComponent}  from './${2:YourComponent}.vue';",
+      "",
+      "export default {",
+      "  title: '${1:YourComponent}',",
+      "  component: ${1:YourComponent},",
+      "};",
+      "",
+      "const Template = (args) => ({",
+      "  components: { ${1:YourComponent} },",
+      "  setup() {",
+      "    return { args };",
+      "  },",
+      "  template: '< ${1:YourComponent} v-bind=\"args\"/>',",
+      "});",
+      "",
+      "export const ${3:FirstStory} = Template.bind({});",
+      "",
+      "${3:FirstStory}.args = {",
+      "${4: /* args */}",
+      "};"
+    ]
+  },
+}
