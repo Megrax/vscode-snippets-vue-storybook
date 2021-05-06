@@ -28,7 +28,7 @@
       "import ${1:YourComponent}  from '@/components/${2:YourComponent}';",
       "",
       "export default {",
-      "\ttitle: '${1:YourComponent}',",
+      "\ttitle: 'Components/${1:YourComponent}',",
       "\tcomponent: ${1:YourComponent},",
       "};",
       "",
@@ -40,11 +40,11 @@
       "\ttemplate: '< ${1:YourComponent} v-bind=\"args\"/>',",
       "});",
       "",
-      "export const ${3:FirstStory} = Template.bind({});",
+      "export const ${3:Primary} = Template.bind({});",
+      "${3:Primary}.args = { ${4:} };",
       "",
-      "${3:FirstStory}.args = {",
-      "${4: /* args */}",
-      "};"
+      "export const ${5:Secondary} = Template.bind({});",
+      "${5:Secondary}.args = { ${6:} };",
     ]
   },
 }
