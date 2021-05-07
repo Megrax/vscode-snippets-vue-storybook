@@ -2,7 +2,7 @@
     "name": "vue-storybook-snippets",
     "displayName": "Vue Storybook Snippets",
     "description": "Storybook Snippets for Vue",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "Megrax",
     "repository": {
         "type": "git",
