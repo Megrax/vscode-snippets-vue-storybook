@@ -21,10 +21,14 @@ Use 'vs' + 2 or 3 to generate YourComponent.stories.js file automatically.
 
 Initial release.
 
+### 0.0.5
+
+Updated snippets and added icon.
 ## Feedback
 
 Please send any feedback or suggestions by creating issues on GitHub.
 
+If this helps you, please leave a 🌟 at the GitHub repo.
 ## License
 
 MIT

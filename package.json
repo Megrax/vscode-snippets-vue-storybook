@@ -19,6 +19,7 @@
         "Storybook",
         "Vue"
     ],
+    "icon": "images/icon.png",
     "contributes": {
         "snippets": [
             {
