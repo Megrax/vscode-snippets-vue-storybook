@@ -4,6 +4,8 @@
 
 This an extension to provide snippets of storybook configures file in a vue project.
 
+![preview](./preview.gif)
+
 ## Snippet Prefixes
 
 | Prefix | Description                |
@@ -13,7 +15,7 @@ This an extension to provide snippets of storybook configures file in a vue proj
 
 ## Usage
 
-Use 'vs' + 2 or 3 to generate YourComponent.stories.js file automatically.
+Use `vs2` or `vs3` to generate YourComponent.stories.js file automatically.
 
 ## Release Notes
 
